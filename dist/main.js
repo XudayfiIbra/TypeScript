@@ -1,9 +1,8 @@
 "use strict";
-// Object of countries
-let countries = {
-    id: 1,
-    name: "Somalia",
-    code: +252
-};
-console.log(countries);
+// Function
+function HandleSubmit(submit) {
+    submit = "submit";
+    return submit;
+}
+console.log(HandleSubmit('submit'));
 //# sourceMappingURL=main.js.map

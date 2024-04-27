@@ -1,18 +1,8 @@
-// Object of countries
+// Function
 
-type Country = {
-  id: number,
-  name: string,
-  code: number
+function HandleSubmit(submit: string): string {
+  submit = "submit";
+  return submit;
 }
 
-
-let countries: Country = {
-  id: 1,
-  name: "Somalia",
-  code: +252
-}
-
-
-console.log(countries);
-
+console.log(HandleSubmit('submit'))
