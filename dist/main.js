@@ -1,8 +1,9 @@
 "use strict";
-function getCustomer(id) {
-    return id === 0 ? null : { JoinedDate: new Date() };
-}
-let customer = getCustomer(1);
-// ? <== this means in TS Optional property access 
-console.log(customer === null || customer === void 0 ? void 0 : customer.JoinedDate.getHours());
+// Object of countries
+let countries = {
+    id: 1,
+    name: "Somalia",
+    code: +252
+};
+console.log(countries);
 //# sourceMappingURL=main.js.map
