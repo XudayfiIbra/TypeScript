@@ -4,5 +4,5 @@ function getCustomer(id) {
 }
 let customer = getCustomer(1);
 // ? <== this means in TS Optional property access 
-console.log(customer === null || customer === void 0 ? void 0 : customer.JoinedDate);
+console.log(customer === null || customer === void 0 ? void 0 : customer.JoinedDate.getHours());
 //# sourceMappingURL=main.js.map
